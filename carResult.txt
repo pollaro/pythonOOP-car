@@ -1,0 +1,50 @@
+In [58]: car1 = car(2000,35,'Full',15)
+Price: 2000
+Speed: 35
+Fuel: Full
+Mileage: 15
+Tax: 0.12
+
+In [59]: %run car.py
+
+In [60]: car1 = car(2000,35,'Full',15)
+Price: $2000
+Speed: 35mph
+Fuel: Full
+Mileage: 15mpg
+Tax: 0.12
+
+In [61]: car2 = car(2000,5,'Not Full',105)
+Price: $2000
+Speed: 5mph
+Fuel: Not Full
+Mileage: 105mpg
+Tax: 0.12
+
+In [62]: car3 = car(200,15,'Kind of Full',95)
+Price: $200
+Speed: 15mph
+Fuel: Kind of Full
+Mileage: 95mpg
+Tax: 0.12
+
+In [63]: car4 = car(20000,25,'Full',25)
+Price: $20000
+Speed: 25mph
+Fuel: Full
+Mileage: 25mpg
+Tax: 0.15
+
+In [64]: car5 = car(1000,45,'Empty',10)
+Price: $1000
+Speed: 45mph
+Fuel: Empty
+Mileage: 10mpg
+Tax: 0.12
+
+In [65]: car6 = car(200000,1000,'Full',20)
+Price: $200000
+Speed: 1000mph
+Fuel: Full
+Mileage: 20mpg
+Tax: 0.15
